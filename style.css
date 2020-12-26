@@ -1,9 +1,10 @@
 body {
-    background-color: #2c3347;
+    background-color: royalblue;
     color: #ffffff;
+    text-align: center;
   }
   
-  h1 {
+  h1 , h2 {
     font-size: 48px;
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
@@ -21,13 +22,13 @@ body {
     grid-row-gap: 23px;
     width: 100%;
     padding-top: 25px;
+    padding-bottom: 25px;
   }
   
   .circle {
     display: flex;
     justify-content: center;
     align-items: center;
-  
     height: 270px;
     width: 270px;
   
@@ -42,8 +43,7 @@ body {
   }
   
   .gold {
-    font-weight: 900;
-  
+    font-weight: 800;
     color: #f2c94c;
     text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
   }
